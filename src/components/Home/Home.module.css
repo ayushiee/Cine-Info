@@ -1,8 +1,7 @@
 .mainContainer {
     background-color: #F6F6EB;
     height: 100vh;
-    width: 100%;
-    padding: 1em;
+    width: auto;
     display: flex;
     flex-direction: column;
 }
@@ -10,6 +9,7 @@
 .logoContainer {
     align-self: flex-start;
     justify-self: flex-start;
+    margin: 1em;
 }
 
 .logo {
@@ -22,24 +22,50 @@
     flex-direction: row;
 }
 
-.leftContainer {
+.leftContainer, .rightContainer {
     display: flex;
     flex-direction: column;
-    background-color: tan;
     flex: 2;
     padding: 5vw;
+    margin: 0 1em;
+    justify-content: center;
+    align-self: center;
 }
-
 
 .title {
     font-size: 7em;
     font-weight: 700;
     align-self: flex-start;
+    justify-content: flex-start;
 }
 
-.subtitle{
+.subtitle {
     display: flex;
+    align-self: flex-start;
     font-size: 1.5em;
     font-weight: 500;
     margin-left: 1em;
+}
+
+.image {
+    height: 65vh;
+    width: auto;
+}
+
+.searchBar {
+    background-color: #F6F6EB;
+    width: 50%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #bcbcbcA3;
+    border-bottom-width: 5;
+    margin: 5em 1.5em;
+    padding: 1em;
+    align-self: flex-start;
+    font-style: italic;
+}
+
+.searchBar:focus {
+    outline: none;
 }
