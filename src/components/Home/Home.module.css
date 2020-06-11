@@ -1,0 +1,45 @@
+.mainContainer {
+    background-color: #F6F6EB;
+    height: 100vh;
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoContainer {
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+.logo {
+    height: 5vh;
+    width: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: tan;
+    flex: 2;
+    padding: 5vw;
+}
+
+
+.title {
+    font-size: 7em;
+    font-weight: 700;
+    align-self: flex-start;
+}
+
+.subtitle{
+    display: flex;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-left: 1em;
+}
