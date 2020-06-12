@@ -11,7 +11,7 @@ function Home() {
             </div>
             <div className={styles.content}>
                 <div className={styles.leftContainer}>
-                    <span className={styles.title}>Cinephile.</span>
+                    <span className={styles.title}>Cinefo.</span>
                     <span className={styles.subtitle}>All about movies and series!</span>
                     {/* <div className={styles.searchBar}> */}
                         <input type='text' name='search' placeholder='Search your favourite movies, series...' className={styles.searchBar} />

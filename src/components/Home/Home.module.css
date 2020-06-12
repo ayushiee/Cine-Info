@@ -1,7 +1,7 @@
 .mainContainer {
     background-color: #F6F6EB;
     height: 100vh;
-    width: auto;
+    width: 100vw;
     display: flex;
     flex-direction: column;
 }
@@ -22,18 +22,18 @@
     flex-direction: row;
 }
 
-.leftContainer, .rightContainer {
+.leftContainer {
     display: flex;
     flex-direction: column;
     flex: 2;
     padding: 5vw;
-    margin: 0 1em;
+    margin: 0 2em;
     justify-content: center;
     align-self: center;
 }
 
 .title {
-    font-size: 7em;
+    font-size: min(6.5em, 12vh);
     font-weight: 700;
     align-self: flex-start;
     justify-content: flex-start;
@@ -42,9 +42,19 @@
 .subtitle {
     display: flex;
     align-self: flex-start;
-    font-size: 1.5em;
+    font-size: min(1.5em, 2vh);
     font-weight: 500;
     margin-left: 1em;
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding: 1em;
+    margin: 0 2em;
+    justify-content: center;
+    align-self: center;
 }
 
 .image {
@@ -59,7 +69,7 @@
     border-left: none;
     border-right: none;
     border-bottom-color: #bcbcbcA3;
-    border-bottom-width: 5;
+    border-bottom-width: 1px;
     margin: 3em 1.5em;
     padding: 1em;
     align-self: flex-start;
@@ -68,4 +78,65 @@
 
 .searchBar:focus {
     outline: none;
+}
+
+@media all and (max-width: 1300px) {
+    .content {
+        margin-top: 15vh;
+        align-self: center;
+    }
+    .rightContainer, .leftContainer {
+        margin: 0;
+    }
+    .image {
+        height: 40vh;
+        width: auto;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .mainContainer {
+        height: 100vh;
+    }
+    .content {
+        flex-direction: column;
+        margin-top: 5vh;
+        align-self: center;
+    }
+    .rightContainer, .leftContainer {
+        margin: 0;
+        align-items: center;
+    }
+    .image {
+        height: 40vh;
+        width: auto;
+    }
+    .searchBar, .subtitle, .title {
+        align-self: center;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .mainContainer {
+        height: 100vh;
+        width: 100vw;
+    }
+    .content {
+        margin-top: 5vh;
+    }
+    .title {
+        font-size: min(3.5em, 12vw);
+    }
+    .image {
+        height: auto;
+        width: 80vw;
+    }
+    .searchBar {
+        padding: 1vh;
+        margin: 1.5em;
+        width: 100%;
+        text-align: center;
+        font-size: min(0.6em, 5vw);
+        border-bottom-width: 1;
+    }
 }
