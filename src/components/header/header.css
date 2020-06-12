@@ -1,0 +1,12 @@
+.logoContainer {
+    display: flex;
+    align-self: flex-start;
+    justify-self: flex-start;
+    padding: 1em;
+    /* margin: 1em; */
+}
+
+.logo {
+    height: 5vh;
+    width: auto;
+}
