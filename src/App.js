@@ -1,7 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home';
+import Result from './components/Result';
+import Header from './components/header'
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
         >
           Learn React
         </a> */}
-        <Home />
+        {/* <Header /> */}
+        <Result />
       {/* </header> */}
     </div>
   );

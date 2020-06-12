@@ -1,0 +1,65 @@
+.mainContainer {
+    background-color: thistle;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    background-color: teal;
+    padding: 3vw;
+    align-items: center;
+}
+
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+    /* flex: 2; */
+    padding: 1.5em;
+    margin: 0 2em;
+    justify-content: center;
+    background-color: tomato;
+    align-self: center;
+}
+
+.poster {
+    height: 70vh;
+    /* width: auto; */
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin: 0 2em;
+    justify-content: center;
+    align-self: center;
+    background-color: tomato;
+}
+
+.title {
+    font-size: min(3em, 10vw);
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+}
+
+.text {
+    text-align: left;
+    background-color: aliceblue;
+    margin: 1vh;
+    align-content: center;
+    justify-content: center;
+}
+
+.subText {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.subTitle {
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.5em;
+}

@@ -70,10 +70,11 @@
     border-right: none;
     border-bottom-color: #bcbcbcA3;
     border-bottom-width: 1px;
-    margin: 3em 1.5em;
-    padding: 1em;
+    margin: 2.5em 0;
+    padding: 0.5em;
     align-self: flex-start;
     font-style: italic;
+    font-size: 1em;
 }
 
 .searchBar:focus {
