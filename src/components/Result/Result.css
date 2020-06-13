@@ -1,14 +1,13 @@
 .resultContainer {
-    /* background-color: thistle; */
-    height: 100vh;
-    width: 100vw;
+    background-color: #d8d8d8 ;
+    height: max(100vh, 100%);
+    width: max(100vw, 100%);
 }
 
 .resultContent {
     display: flex;
     flex-direction: row;
-    /* background-color: teal; */
-    padding: 3vw;
+    padding: 1vw;
     align-items: center;
     justify-content: space-around;
 }
@@ -16,51 +15,55 @@
 .leftContent {
     display: flex;
     flex-direction: column;
-    /* flex: 2; */
-    padding: 1.5em;
-    margin: 0 2em;
+    margin: 0 10vw;
     justify-content: center;
-    /* background-color: tomato; */
     align-self: center;
 }
 
 .poster {
-    height: 70vh;
-    /* width: auto; */
+    height: 80vh;
+    background-color: tomato;
+    padding: 1em;
 }
 
 .rightContent {
     display: flex;
+    width: 70%;
     flex-direction: column;
-    /* padding: 1em; */
-    margin: 0 2em;
+    margin-right: 4em;
     justify-content: center;
-    align-self: center;
-    background-color: tomato;
+    align-self: flex-start;
 }
 
 .posterTitle {
-    font-size: min(3em, 10vw);
+    font-size: min(4em, 15vw);
     font-weight: 700;
     text-align: center;
     justify-content: center;
+    margin: 0 0 0.5em 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3em;
 }
 
 .text {
     text-align: left;
-    background-color: aliceblue;
     margin: 1vh;
     align-content: center;
     justify-content: center;
-}
-
-.subText {
-    text-align: left;
-    font-size: 1.2em;
 }
 
 .resSubTitle {
     text-align: left;
     font-weight: 600;
     font-size: 1.5em;
+}
+
+.subText {
+    text-align: left;
+    font-size: 1.2em;
+    padding-left: 0.3em;
 }
