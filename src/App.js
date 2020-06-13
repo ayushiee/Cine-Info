@@ -21,7 +21,8 @@ function App() {
           Learn React
         </a> */}
         {/* <Header /> */}
-        <Result />
+        {/* <Result /> */}
+        <Home />
       {/* </header> */}
     </div>
   );

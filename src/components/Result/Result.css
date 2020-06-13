@@ -1,25 +1,26 @@
-.mainContainer {
-    background-color: thistle;
+.resultContainer {
+    /* background-color: thistle; */
     height: 100vh;
     width: 100vw;
 }
 
-.content {
+.resultContent {
     display: flex;
     flex-direction: row;
-    background-color: teal;
+    /* background-color: teal; */
     padding: 3vw;
     align-items: center;
+    justify-content: space-around;
 }
 
-.leftContainer {
+.leftContent {
     display: flex;
     flex-direction: column;
     /* flex: 2; */
     padding: 1.5em;
     margin: 0 2em;
     justify-content: center;
-    background-color: tomato;
+    /* background-color: tomato; */
     align-self: center;
 }
 
@@ -28,17 +29,17 @@
     /* width: auto; */
 }
 
-.rightContainer {
+.rightContent {
     display: flex;
     flex-direction: column;
-    padding: 1em;
+    /* padding: 1em; */
     margin: 0 2em;
     justify-content: center;
     align-self: center;
     background-color: tomato;
 }
 
-.title {
+.posterTitle {
     font-size: min(3em, 10vw);
     font-weight: 700;
     text-align: center;
@@ -58,7 +59,7 @@
     font-size: 1.2em;
 }
 
-.subTitle {
+.resSubTitle {
     text-align: left;
     font-weight: 600;
     font-size: 1.5em;

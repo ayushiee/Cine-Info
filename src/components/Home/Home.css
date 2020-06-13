@@ -62,15 +62,21 @@
     width: auto;
 }
 
+.search {
+    align-self: flex-start;
+    width: 90%;
+    margin: 0.5em 0;
+    padding: 1vh 0 ;
+}
+
 .searchBar {
     background-color: #F6F6EB;
-    width: 50%;
+    width: 80%;
     border-top: none;
     border-left: none;
     border-right: none;
     border-bottom-color: #bcbcbcA3;
     border-bottom-width: 1px;
-    margin: 2.5em 0;
     padding: 0.5em;
     align-self: flex-start;
     font-style: italic;
@@ -81,6 +87,21 @@
     outline: none;
 }
 
+.submitButton {
+    color: #000000;
+    background-color:#ffd381 ;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0.56em;outline: none;
+    transition: linear 200ms;
+}
+.submitButton:hover {
+    background-color:#e7c076;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
 @media all and (max-width: 1300px) {
     .content {
         margin-top: 15vh;
