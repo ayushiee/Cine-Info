@@ -6,16 +6,6 @@
     flex-direction: column;
 }
 
-.logoContainer {
-    align-self: flex-start;
-    justify-self: flex-start;
-    margin: 1em;
-}
-
-.logo {
-    height: 5vh;
-    width: auto;
-}
 
 .content {
     display: flex;
@@ -64,7 +54,7 @@
 
 .search {
     align-self: flex-start;
-    width: 90%;
+    width: 100%;
     margin: 0.5em 0;
     padding: 1vh 0 ;
 }
@@ -77,7 +67,7 @@
     border-right: none;
     border-bottom-color: #bcbcbcA3;
     border-bottom-width: 1px;
-    padding: 0.5em;
+    padding: 1em 0;
     align-self: flex-start;
     font-style: italic;
     font-size: 1em;
@@ -96,6 +86,7 @@
     font-size: 16px;
     padding: 0.56em;outline: none;
     transition: linear 200ms;
+    border-radius: 2px;
 }
 .submitButton:hover {
     background-color:#e7c076;

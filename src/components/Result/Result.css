@@ -22,6 +22,7 @@
 
 .poster {
     height: 80vh;
+    min-width: 50%;
     background-color: tomato;
     padding: 1em;
 }
