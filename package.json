@@ -19,6 +19,7 @@
     "eject": "react-scripts eject",
     "lint": "yarn eslint --ext .jsx,.js src",
     "lint:fix": "yarn lint --fix",
+    "deploy": "yarn build && firebase deploy"
     },
   "browserslist": {
     "production": [
