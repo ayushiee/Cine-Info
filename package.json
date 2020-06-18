@@ -18,8 +18,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "yarn eslint --ext .jsx,.js src",
-    "lint:fix": "yarn lint --fix"
-  },
+    "lint:fix": "yarn lint --fix",
+    },
   "browserslist": {
     "production": [
       ">0.2%",
