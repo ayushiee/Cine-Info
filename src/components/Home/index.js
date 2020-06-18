@@ -21,7 +21,7 @@ function Home() {
 
       <div className='content'>
         <div className='leftContainer'>
-          <span className='title'>Cinefo.</span>
+          <span className='title'>Cine-look</span>
           <span className='subtitle'>All about movies and series!</span>
           <form className='search' onSubmit={onClick}>
             <input
