@@ -22,7 +22,7 @@
 }
 
 .title {
-    font-size: min(6.5em, 12vh);
+    font-size: min(5em, 12vh);
     font-weight: 700;
     align-self: flex-start;
     justify-content: flex-start;
@@ -142,7 +142,7 @@
         margin-top: 5vh;
     }
     .title {
-        font-size: min(3.5em, 12vw);
+        font-size: min(3em, 12vw);
     }
     .image {
         height: auto;
