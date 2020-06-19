@@ -9,7 +9,7 @@ function Result() {
 
 
   async function fetchData() {
-    const url = `http://www.omdbapi.com/?t=${key}&apikey=${apiKey}`;
+    const url = `https://www.omdbapi.com/?t=${key}&apikey=${apiKey}`;
     try {
       const res = await fetch(url);
       const response = await res.json();
