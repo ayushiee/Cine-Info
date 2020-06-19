@@ -7,11 +7,11 @@ This is a basic project which displays a movie/series information when prompted 
 ### Api: omdbapi.com 
 
 ## Technologies used
-<img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" style="width: 100px"/>
+<img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" style="height: 50px"/>
 
-<img src="https://www.i-programmer.info/images/stories/prof/iprogrammer/JavascriptName/JSlogo.jpg" style="width: 100px"/> 
+<img src="https://www.i-programmer.info/images/stories/prof/iprogrammer/JavascriptName/JSlogo.jpg" style="height: 50px"/> 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" style="width: 70px"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" style="height: 50px"/>
 
 ## How to run the project?
 Clone the repository and run `yarn start`.
